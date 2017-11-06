@@ -1,0 +1,48 @@
+//全局配置
+ext{
+    android=[
+            compileSdkVersion : 25,
+            buildToolsVersion : "25.0.2",
+            applicationId     : "jljt.wangs.com.cdwlgdapp",
+            minSdkVersion     : 19,
+            targetSdkVersion  : 25,
+            versionCode       : 12,
+            versionName       : "1.1.2",
+            multiDexEnabled   :   true,
+            testInstrumentationRunner:"android.support.test.runner.AndroidJUnitRunner"
+    ]
+    def dependVersion=[
+            support     : "25.2.0",
+            constraint:"1.0.2",
+            design:"25.2.0",
+            cardview:"25.2.0",
+            recyclerview:"25.2.0",
+            support_v13:"25.2.0",
+            retrolambda:"3.2.5"
+    ]
+    dependencies=[
+            //base
+            "appcompat-v7": "com.android.support:appcompat-v7:${dependVersion.support}",
+            "constraint-layout":"com.android.support.constraint:constraint-layout:${dependVersion.constraint}",
+            "design": "com.android.support:design:${dependVersion.design}",
+            "cardview": "com.android.support:cardview-v7:${dependVersion.cardview}",
+            "recyclerview": "com.android.support:recyclerview-v7:${dependVersion.recyclerview}",
+            "support-v13":"com.android.support:support-v13:${dependVersion.support_v13}",
+            //ui
+            "PickerView":"com.contrarywind:Android-PickerView:3.2.5",
+            "pager-bottom-tab-strip":"me.majiajie:pager-bottom-tab-strip:2.1.0",
+            "FlycoTabLayout_Lib":"com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar",
+            "bga-banner":"cn.bingoogolapple:bga-banner:2.1.7@aar",
+            "SmartRefreshLayout":"com.scwang.smartrefresh:SmartRefreshLayout:1.0.2",
+            "SmartRefreshHeader":"com.scwang.smartrefresh:SmartRefreshHeader:1.0.2",
+            "barlibrary":"com.gyf.barlibrary:barlibrary:2.2.6", //沉浸式状态栏
+            "BasePopup":"com.github.razerdp:BasePopup:v1.8.0",
+            "picture_library":"com.github.LuckSiege.PictureSelector:picture_library:v2.1.0",
+             //rx
+            "rxlifecycle":"com.trello:rxlifecycle-components:1.0",
+            //黄油刀
+            "butterknife":"com.jakewharton:butterknife:8.5.1",
+            "butterknife_compiler":"com.jakewharton:butterknife-compiler:8.5.1",
+    ]
+
+}
