@@ -7,7 +7,7 @@
     <cn.bingoogolapple.bgabanner.BGAGuideLinkageLayout style="@style/MatchMatch">
 
         <cn.bingoogolapple.bgabanner.BGABanner
-            android:id="@+id/banner_guide_background"
+            android:id="@+id/banner_guide_backgrounds"
             style="@style/MatchMatch"
             app:banner_pageChangeDuration="1000"
             app:banner_pointAutoPlayAble="false"
@@ -17,7 +17,7 @@
             app:banner_transitionEffect="fade"/>
 
         <cn.bingoogolapple.bgabanner.BGABanner
-            android:id="@+id/banner_guide_foreground"
+            android:id="@+id/banner_guide_foregrounds"
             style="@style/MatchMatch"
             app:banner_pageChangeDuration="1000"
             app:banner_pointAutoPlayAble="false"

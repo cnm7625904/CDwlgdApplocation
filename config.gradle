@@ -43,6 +43,8 @@ ext{
             //黄油刀
             "butterknife":"com.jakewharton:butterknife:8.5.1",
             "butterknife_compiler":"com.jakewharton:butterknife-compiler:8.5.1",
+            "neenbedankt":"com.neenbedankt.gradle.plugins:android-apt:1.8",
+            "butterknife_gradle":"com.jakewharton:butterknife-gradle-plugin:8.5.1",
     ]
 
 }

@@ -7,12 +7,15 @@ import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import jljt.wangs.com.basemoudle.R;
+import jljt.wangs.com.basemoudle.R2;
 
 /**
  * Created by Administrator on 2017/11/6.
  */
 
 public abstract class BaseActivity extends RxAppCompatActivity{
+
     private Unbinder unbinder;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
